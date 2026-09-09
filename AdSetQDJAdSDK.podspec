@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "AdSetQDJAdSDK"
-  s.version      = "1.0.0.1"
+  s.version      = "1.0.0.2"
   s.summary      = "AdSet广告对接聚合类"
   s.description  = <<-DESC
                       AdSetQDJAdSDK 是一个专业的广告聚合SDK，提供高效的广告展示和收益优化功能。
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   }
   
   # 主框架文件
-  # 检查 AdSetQDAdSDK.podspec 关键字段
+  # 检查 AdSetQDJAdSDK.podspec 关键字段
   s.vendored_frameworks = '*.xcframework'
 
   # 系统框架依赖
