@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "AdSetQDJAdSDK"
-  s.version      = "1.0.0.2"
+  s.version      = "1.0.0.3"
   s.summary      = "AdSet广告对接聚合类"
   s.description  = <<-DESC
                       AdSetQDJAdSDK 是一个专业的广告聚合SDK，提供高效的广告展示和收益优化功能。
@@ -28,9 +28,6 @@ Pod::Spec.new do |s|
     'OTHER_LDFLAGS' => '-ObjC'
   }
   
-  # 资源文件
-  s.resources = "*.bundle"
-
   # Swift版本设置
   s.swift_version = '5.0'
   
